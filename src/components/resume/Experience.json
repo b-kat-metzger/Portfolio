@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "category":"education",
+        "icon":"icon-graduation resume__icon",
+        "year":"Aug 2023-May 2027",
+        "title":"Computer Science BS",
+        "gpa":3.7,
+        "location":"Washington State University",
+        "city":"Pullman, WA",
+        "desc":"Relevant Coursework: Data Structures and Algorithms, Data Mining, Data Science, Software Engineering Prinicpals, System Design, Cybersecurity Fundementals"
+    },
+    {
+        "id":2,
+        "category":"non-technical",
+        "icon":"fa-solid fa-utensils resume__icon",
+        "year":"May 2022-Aug 2023",
+        "title":"Server/Host",
+        "location":"Galeotti's Wine Cellar",
+        "city":"Battle Ground, WA",
+        "desc":"Server for local Italian restaurant during High School. This role taught me a lot about professional customer service in an upscale setting"
+    },
+    {
+        "id":3,
+        "category":"non-technical",
+        "icon":"fa-solid fa-cart-shopping resume__icon",
+        "year":"June 2024-Aug 2024",
+        "title":"Overnight Remodel Associate",
+        "location":"Walmart",
+        "city":"Battle Ground, WA",
+        "desc":"Summer job in which I assisted with the construction of a store-wide renovation. I received praise from managers in this role due to my strong communication skills and great work ethic "
+    },
+    {
+        "id":4,
+        "category":"non-technical",
+        "icon":"fa-solid fa-pizza-slice resume__icon",
+        "year":"June 2025-Aug 2025",
+        "title":"Team Member",
+        "location":"Little Caesar's",
+        "city":"Battle Ground, WA",
+        "desc":"Another summer job as a worker at a pizza restaurant. I demonstrated fast adaptation to the workplace and provided excellent customer service due to previous years of experience in the industry"
+    },
+    {
+        "id":5,
+        "category":"organization",
+        "icon":"fa-brands fa-instagram resume__icon",
+        "year":"Jan 2024-May 2024",
+        "title":"Public Relations Chair",
+        "organization":"Japanese Student Association",
+        "location":"Washington State University",
+        "desc":"In charge of managing organization's Instagram page and creating weekly promotional material with Canva. Our Instagram is our primary source of communication, so I was in charge of contacting other organizations"
+    },
+    {
+        "id":6,
+        "category":"organization",
+        "icon":"fa-solid fa-user-tie resume__icon",
+        "year":"May 2024-May 2025",
+        "title":"President",
+        "organization":"Japanese Student Association",
+        "location":"Washington State University",
+        "desc":"Led team of seven executive officers and oversaw a student organization with 50+ active members. Facilitated organization growth through a permament 100% growth in semesterly-budget and a 45% general meeting attendance increase"
+    },
+    {
+        "id":7,
+        "category":"organization",
+        "icon":"fa-solid fa-face-smile-beam resume__icon",
+        "year":"May 2025-Present",
+        "title":"Event Coordinator",
+        "organization":"Japanese Student Association",
+        "location":"Washington State University",
+        "desc":"Leader of the planning and execution of new organization cultural event with a budget of around $4,000. I work closely with other student and university organizations to make our event a possibility"
+    },
+    {
+        "id":8,
+        "category":"organization",
+        "icon":"fa-solid fa-sitemap resume__icon",
+        "year":"May 2025-Present",
+        "title":"Vice Chair",
+        "organization":"Asian Pacific American Student Coalition",
+        "location":"Washington State University",
+        "desc":"APASC is a student government chartered organization that oversees seven student organizations and six Greek organizations. As Vice Chair, I am tasked with assisting our internal organizations with their needs"
+    },
+    {
+        "id":9,
+        "category":"event",
+        "icon":"fa-solid fa-seedling resume__icon",
+        "year":"Jan 2025",
+        "title":"AgAID AgAthon Participant",
+        "organization":"AgAID Institute",
+        "location":"Washington State University",
+        "desc":"University sponsored 48-hour Hackathon. Developed a convolutional neural network using Keras to detect crop residue in images. "
+    }
+]

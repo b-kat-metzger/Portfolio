@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "src":"src/assets/basketball.svg",
+        "url":"https://basketballpredictor.org/",
+        "title":"Basketball Predictor",
+        "category":["Machine Learning","Web Application"],
+        "desc":"Personal full-stack web application which uses a self-trained XGBoost classifer to predict NBA matchups"
+    },
+    {
+        "id":2,
+        "src":"src/assets/book.svg",
+        "url":"https://github.com/takoosh808/Class_Scheduler/",
+        "title":"Class Scheduler",
+        "category":["Web Application"],
+        "desc":"Full-stack application created using Agile methodology for Software Engineering Principles course"
+    },
+    {
+        "id":3,
+        "src":"src/assets/money.svg",
+        "url":"https://github.com/ragz743/CPT_S-315-Crypto-Project",
+        "title":"Cryptocurrency Predictor",
+        "category":["Machine Learning"],
+        "desc":"Created recurrent neural network and RandomForest Regressor to predict Open-High-Low-Close prices of various cryptocurrencies"
+    }
+]

@@ -1,0 +1,114 @@
+.about__container{
+    grid-template-columns: 3fr 9fr;
+    column-gap:1.875rem;
+}
+
+.about__data{
+    padding:1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    align-items:flex-start;
+    position: relative;
+}
+.about__data::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+.about__description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.row{
+    margin-top: 2.4rem;
+    row-gap: 2rem;
+    display: grid;
+}
+@media screen and (min-width:1024px) {
+    .row{
+        grid-template-columns: repeat(5,1fr);
+        column-gap: 1.85rem;
+    }
+}
+
+.skill__box{
+    padding:1.4rem;
+    min-width: 100px;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.skill__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semibold);
+}
+.skill__icon{
+    font-size: var(--h1-font-size);
+    z-index:2
+}
+.skill__description{
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform: translateX(-50%) translateY(10px);
+    padding:1rem;
+    border-radius: var(--border-radius);
+    width:300px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    font-size: var(--normal-font-size);
+    box-shadow: var(--shadow);
+    border:1px solid rgba(100,255,219,0.1);
+}
+.skill__box:hover{
+    transform:translateY(-5px);
+    z-index:2;
+    background-color:hsl(55, 62%, 65%);
+}
+.skill_box:hover .skill__icon{
+    transform:scale(1.1)
+}
+.skill__box:hover .skill__description{
+    opacity:3;
+    background-color: #fff;
+    pointer-events: auto;
+    transform:translateX(-50%) translateY(0);
+}
+
+@media screen and (max-width:1024px){
+    .about__container{
+        grid-template-columns: 400px;
+        justify-content: center;
+        row-gap:1.875rem;
+    }
+    .about__data::before{
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        left: 49%;
+        top: -20px;
+    }
+    .about__img{
+        justify-self: center;
+    }
+    .row{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1.25rem;
+        row-gap: 2rem;
+    }
+    .skill__description{
+        width: 200px;
+    }
+}
