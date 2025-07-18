@@ -117,7 +117,21 @@
     .work__container{
         grid-template-columns: 310px;
     }
+    .work__category{
+            transform: translateY(-80px);
+    }
     .work__filters{
         row-gap: .25rem;
+    }
+}
+@media screen and (max-width:540px) {
+    .work__container{
+        grid-template-columns: 220px;
+    }
+    .work__category{
+            transform: translateY(-80px);
+    }
+    .work__desc{
+        font-size: var(--smaller-font-size);
     }
 }

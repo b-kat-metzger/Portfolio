@@ -33,7 +33,7 @@ const Portfolio = () => {
               <span className="work__category">{category.join(' + ')}</span>
               <h3 className="work__title">{title}</h3>
               <p className="work__desc">{desc}</p>
-              <a href={url} className="work__button" target='_blank'>
+              <a href={{url}} className="work__button" target='_blank'>
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>

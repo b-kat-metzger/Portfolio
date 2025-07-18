@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "src":"src/assets/basketball.svg",
+        "src":"./basketball.svg",
         "url":"https://basketballpredictor.org/",
         "title":"Basketball Predictor",
         "category":["Machine Learning","Web Application"],
@@ -9,7 +9,7 @@
     },
     {
         "id":2,
-        "src":"src/assets/book.svg",
+        "src":"./book.svg",
         "url":"https://github.com/takoosh808/Class_Scheduler/",
         "title":"Class Scheduler",
         "category":["Web Application"],
@@ -17,7 +17,7 @@
     },
     {
         "id":3,
-        "src":"src/assets/money.svg",
+        "src":"./money.svg",
         "url":"https://github.com/ragz743/CPT_S-315-Crypto-Project",
         "title":"Cryptocurrency Predictor",
         "category":["Machine Learning"],
