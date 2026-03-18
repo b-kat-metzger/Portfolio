@@ -48,9 +48,9 @@ const Resume = () => {
         </div>
 
         <div className="timeline grid">
-          <h2 className="timeline__header">Non-Software Professional Experience</h2>
+          <h2 className="timeline__header">Professional Experience</h2>
           {Experience.map((val,id)=>{
-            if (val.category==="non-technical"){
+            if (val.category==="technical"){
               return (
                 <Card 
                 key={id}
