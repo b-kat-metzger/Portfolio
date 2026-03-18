@@ -14,7 +14,7 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               Hi! My name is Ben and I am a 3rd year Computer Science student studying at Washington State University in Pullman, WA. 
-              I currently work at Schweitzer Engineering Laboratories as a Software Engineer Intern with professional experience in full-stack development and development tooling.
+              I currently work at Schweitzer Engineering Laboratories as a Software Engineer Intern with professional experience in full-stack development and developer tooling.
             </p>
             <p className="about__description">
               I am a passionate software developer with a background in customer service and project management. 
