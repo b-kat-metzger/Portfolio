@@ -6,8 +6,8 @@ const Skills = () => {
                 <i className="fa-brands fa-react skill__icon"></i>
                     <div>
                         <h3 className="skill__title">React</h3>
-                        <span className="skill__description">Used extensively in personal and school projects for building
-                            both Single-Page Applications and Multi-Page Applications.
+                        <span className="skill__description">Used extensively in personal, academic, and professional  projects for building
+                            responsive applications. Professionally, I use TypeScript and MobX for state management and static type checking.
                         </span>
                     </div>
             </div>
@@ -15,8 +15,18 @@ const Skills = () => {
                 <i className="fa-brands fa-python skill__icon"></i>
                     <div>
                         <h3 className="skill__title">Python</h3>
-                        <span className="skill__description">Used in machine learning projects with pandas, numpy, and scikit-learn 
-                            and as a backend framework with a MVC architecture framework in Django and simple REST API service with Flask</span>
+                        <span className="skill__description">Used in machine learning projects with pandas, numpy, and scikit-learn, 
+                            as a backend framework with a MVC architecture framework in Django, as a simple REST API service with Flask,
+                            and for creating scripts to interface with existing tools at my internship. </span>
+                    </div>
+            </div>
+            <div className="skill__box">
+                <i className="fa-brands fa-typescript skill__icon"></i>
+                    <div>
+                        <h3 className="skill__title">TypeScript</h3>
+                        <span className="skill__description">I use TypeScript for type-safety in both personal and professional projects.
+                            Static typing makes frontend error handling, debugging, and code reviewing much easier and more effective.
+                        </span>
                     </div>
             </div>
             <div className="skill__box">
@@ -30,30 +40,33 @@ const Skills = () => {
                     </div>
             </div>
             <div className="skill__box">
-                <i className="fa-solid fa-wind skill__icon"></i>
+                <i className="fa-brands fa-docker skill__icon"></i>
                     <div>
-                        <h3 className="skill__title">Tailwind</h3>
-                        <span className="skill__description">I've used both Tailwind and Bootstrap for rapid styling of UI components. This rapid development 
-                            has helped me a lot when I am under a time constraint, such as for Hackathons.
+                        <h3 className="skill__title">Docker</h3>
+                        <span className="skill__description">I use Docker in professional, academic, and personal projects to create containerized apps through Dockerfiles and docker-compose.
+                            I've also used Docker to create a Linux distribution which has development tools pre-installed and configured for my internship.
+                            I also use Docker with other tools like Jenkins and Tilt to automate development workflows. 
                         </span>
                     </div>
             </div>
             <div className="skill__box">
-                <i className="fa-brands fa-golang skill__icon"></i>
+                <i className="fa-solid fa-c skill__icon__dual"></i>
+                <i className="fa-solid fa-hashtag skill__icon__dual"></i>
                     <div>
-                        <h3 className="skill__title">Golang</h3>
-                        <span className="skill__description">Used for a microservice architecture backend. I really enjoy
-                            using Go because of its robust memory safety/handling and high-speed processing
+                        <h3 className="skill__title">Dotnet</h3>
+                        <span className="skill__description">Used professionally with the ASPNET Core MVC framework to build REST APIs and web applications.
+                            The XUnit testing framework enables me to write unit and integration tests for my applicaitons to ensure code quality and reliability.
                         </span>
                     </div>
             </div>
+            
         {/* </div> */}
-        {/* <div className="row"> */}
+        {/* <div className"row"> */}
             <div className="skill__box">
                 <i className="fa-solid fa-database skill__icon"></i>
                 <div>
                     <h3 className="skill__title">SQL</h3>
-                    <span className="skill__description">Experience using Postgres to store large datasets to use with machine learning
+                    <span className="skill__description">Peronal and academic Experience using Postgres to store large datasets to use with machine learning
                         algorithms
                     </span>
                 </div>
@@ -62,37 +75,27 @@ const Skills = () => {
                 <i className="fa-solid fa-c skill__icon"></i>
                 <div>
                     <h3 className="skill__title">C/C++</h3>
-                    <span className="skill__description">C and C++ are the primary languages used in my coursework. I have created many academic projects
-                        in both languages and am comfortable with pointers and memory safety in these languages.
+                    <span className="skill__description">I use C and CPP professionally and academically to build performance-critical applications in environments that handle thousands of packets per second.
                     </span>
                 </div>
             </div>
             <div className="skill__box">
-                <i className="fa-brands fa-java skill__icon"></i>
+                <i className="fa-brands fa-kubernetes skill__icon"></i>
                 <div>
-                    <h3 className="skill__title">Java</h3>
-                    <span className="skill__description">I have used Java for some school projects and have a good understanding of the Object Oriented
-                        Principles and testing with JUnit, but have not used Spring Boot or worked with concurrency in Java yet.
+                    <h3 className="skill__title">Kubernetes</h3>
+                    <span className="skill__description">
+                        I use Kubernetes professionally with k3s to create local development clusters to create and test containerized applications.
+                        Using Helm charts, applications can easily be packaged and deployed for cross-repo deployment and testing.
                     </span>
                 </div>
             </div>
+            
             <div className="skill__box">
-                <i className="fa-brands fa-docker skill__icon"></i>
+                <i className="fa-brands fa-claude skill__icon"></i>
                     <div>
-                        <h3 className="skill__title">Docker</h3>
-                        <span className="skill__description">I've used Docker in both school projects and for a personal project.
-                            Although my projects have not been in the scope where containerization would be beneficial, I have experience
-                            using Docker to create highly-scalable and compatible workspaces.
-                        </span>
-                    </div>
-            </div>
-            <div className="skill__box">
-                <i className="fa-brands fa-figma skill__icon"></i>
-                    <div>
-                        <h3 className="skill__title">Figma</h3>
-                        <span className="skill__description">I utilize Figma to create mockups of my UI before I write a singe line of code.
-                            Having a sketch of my layout helps me create my css styling much quicker. I can also share these designs with other 
-                            developers or stakeholders to get easy feedback and validation before spending time on implementation.
+                        <h3 className="skill__title">AI Tooling</h3>
+                        <span className="skill__description">In our increasingly AI-driven industry, I leverage agentic agents to increase productivity, brainstorm architectural/design ideas, and review code before 
+                            ever submitting pull requests. AI is here to stay, and I am always up-to-date on professional practices for using AI tools effectively and safely. 
                         </span>
                     </div>
             </div>
