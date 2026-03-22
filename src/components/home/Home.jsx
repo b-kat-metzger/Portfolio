@@ -10,7 +10,7 @@ const Home = () => {
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
         <h1 className="home__name">Ben Metzger</h1>
-        <span className="home__education">3rd year Computer Science major @ Washington State University</span>
+        <span className="home__education">Software Engineer Intern @ Schweitzer Engineering Laboratories | 3rd year Honors Computer Science student @ Washington State University</span>
         <HeaderSocials />
 
         <a href="#contact" className="btn">Get in Contact!</a>
